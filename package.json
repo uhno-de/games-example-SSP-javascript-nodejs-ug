@@ -1,0 +1,18 @@
+{
+  "name": "games-example-ssp-javascript-nodejs-ug",
+  "version": "1.0.0",
+  "description": "Beispiel-Implementation des Spiels \"Schere - Stein - Papier\" mit WebSockets in JavaScript mit Node.js.",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhno-de/games-example-SSP-javascript-nodejs-ug.git"
+  },
+  "author": "Udo Gerdes",
+  "type": "module",
+  "dependencies": {
+    "socket.io-client": "^4.5.2"
+  }
+}
